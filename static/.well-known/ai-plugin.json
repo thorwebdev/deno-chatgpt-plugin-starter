@@ -9,10 +9,10 @@
   },
   "api": {
     "type": "openapi",
-    "url": "http://localhost:8000/openapi.json",
+    "url": "https://chatgpt-plugin-starter.deno.dev/openapi.json",
     "is_user_authenticated": false
   },
-  "logo_url": "http://localhost:8000/logo.png",
+  "logo_url": "https://chatgpt-plugin-starter.deno.dev/logo.png",
   "contact_email": "dummy@email.com",
   "legal_info_url": "http://www.example.com/legal"
 }
