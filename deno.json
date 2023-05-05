@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "start": "deno run -A --watch=static main.ts",
+    "openapi": "deno run --allow-read --allow-write scripts/generate_openapi_spec.ts"
+  }
+}
