@@ -11,7 +11,7 @@
     "authorization_url": "https://chatgpt-plugin-starter.deno.dev/auth/oauth_exchange",
     "authorization_content_type": "application/json",
     "verification_tokens": {
-      "openai": "Replace_this_string_with_the_verification_token_generated_in_the_ChatGPT_UI"
+      "openai": "1faa20846b3b411183d2d4704f9270e5"
     }
   },
   "api": {
