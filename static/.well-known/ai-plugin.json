@@ -6,9 +6,9 @@
   "description_for_model": "Plugin for managing a TODO list, you can add, remove and view your TODOs.",
   "auth": {
     "type": "oauth",
-    "client_url": "https://chatgpt-plugin-starter-pcpz6bnwwyd0.deno.dev/oauth",
+    "client_url": "https://chatgpt-plugin-starter.deno.dev/oauth",
     "scope": "",
-    "authorization_url": "https://chatgpt-plugin-starter-pcpz6bnwwyd0.deno.dev/auth/oauth_exchange",
+    "authorization_url": "https://chatgpt-plugin-starter.deno.dev/auth/oauth_exchange",
     "authorization_content_type": "application/json",
     "verification_tokens": {
       "openai": "Replace_this_string_with_the_verification_token_generated_in_the_ChatGPT_UI"
@@ -16,10 +16,10 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://chatgpt-plugin-starter-pcpz6bnwwyd0.deno.dev/openapi.json",
+    "url": "https://chatgpt-plugin-starter.deno.dev/openapi.json",
     "is_user_authenticated": false
   },
-  "logo_url": "https://chatgpt-plugin-starter-pcpz6bnwwyd0.deno.dev/logo.png",
+  "logo_url": "https://chatgpt-plugin-starter.deno.dev/logo.png",
   "contact_email": "dummy@email.com",
   "legal_info_url": "http://www.example.com/legal"
 }
