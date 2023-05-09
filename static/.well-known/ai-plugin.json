@@ -1,11 +1,18 @@
 {
   "schema_version": "v1",
-  "name_for_human": "Deno ChatGPT Plugin Template",
+  "name_for_human": "Deno ChatGPT Plugin with OAuth",
   "name_for_model": "todo",
   "description_for_human": "Plugin for managing a TODO list, you can add, remove and view your TODOs.",
   "description_for_model": "Plugin for managing a TODO list, you can add, remove and view your TODOs.",
   "auth": {
-    "type": "none"
+    "type": "oauth",
+    "client_url": "https://chatgpt-plugin-starter.deno.dev/oauth",
+    "scope": "",
+    "authorization_url": "https://chatgpt-plugin-starter.deno.dev/auth/oauth_exchange",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "dbd8d57b75384491b39585dfd200982f"
+    }
   },
   "api": {
     "type": "openapi",

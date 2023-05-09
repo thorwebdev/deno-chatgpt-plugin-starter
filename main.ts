@@ -53,6 +53,12 @@ router
   .get("/todos/:username", (ctx) => {
     const username = ctx.params.username;
     ctx.response.body = _TODOS[username] ?? [];
+  })
+  // Oauth
+  .get("/oauth", (ctx) => {
+    ctx.response.headers.set("Content-Type", "text/html");
+    ctx.response.headers.set("Content-Type", "text/html");
+    ctx.response.body = `<a href="https://example.com">Click to authorize</a>`;
   });
 
 const app = new Application();
